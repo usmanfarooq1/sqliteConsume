@@ -1,0 +1,22 @@
+{
+  "name": "sqlite_command",
+  "version": "1.0.0",
+  "description": "",
+  "repository": {"type": "git","url": "https://github.com/usmanfarooq1/sqlliteConsume.git"},
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "sqlite_cli": "./index.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "co": "^4.6.0",
+    "co-prompt": "^1.0.0",
+    "commander": "^3.0.2",
+    "sqlite3": "^4.1.0"
+  }
+}
